@@ -109,7 +109,7 @@ i.fa.fa-chrome.fa-2x, i.fa.fa-github.fa-2x {
     }
 
     .grid-image img {
-        border: #92cbd4 4px solid;
+        border: #92cbd4 2px solid;
         border-radius: 6px;
         padding: 4px;
     }
@@ -294,6 +294,7 @@ i.fa.fa-chrome.fa-2x, i.fa.fa-github.fa-2x {
       padding-top: 27px;
       font-size: 45px;
     }
+
 
     .contact-text, .contact-map, .profile-image, .profile-text {
         float: left;
