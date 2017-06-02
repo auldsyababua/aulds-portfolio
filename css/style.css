@@ -64,7 +64,7 @@ br {
     margin: 0 auto;
     height: 300px;
     width: 300px;
-    margin-top: 150px;
+    margin-top: 77px;
 }
 
 #contactList .center-text a {
@@ -256,7 +256,7 @@ i.fa.fa-chrome.fa-2x, i.fa.fa-github.fa-2x {
     }
 
     #header {
-      height: 600px;
+      height: 415px;
     }
 
     #logo {
@@ -287,7 +287,7 @@ i.fa.fa-chrome.fa-2x, i.fa.fa-github.fa-2x {
     }
 
     .circle {
-        margin-top: 150px
+        margin-top: 77px
     }
 
     .circle-text {
