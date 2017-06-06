@@ -45,8 +45,8 @@ table {
 /* End CSS RESET */
 
 br {
-  margin:2.5em 0;
-  line-height:5em;/* chrome */
+  margin:-2.5em 0;
+ /* line-height:5em;*//* chrome */
 }
 
 #header {
