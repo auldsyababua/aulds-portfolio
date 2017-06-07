@@ -75,9 +75,68 @@ br {
     background-image: url(../img/hexellence.png);
 }
 
-i.fa.fa-chrome.fa-2x, i.fa.fa-github.fa-2x {
+.portfolio-piece-client {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  font-weight: 700;
+}
+
+.portfolio-piece-description {
+  padding-bottom: 25px;
+}
+
+.options-container ul {
+  padding-bottom: 25px;
+}
+
+.code-links {
+  width: 100%;
+  text-transform: uppercase;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.code-links a {
+  font-family: 'Bungee', cursive;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #3191a0;
+  font-weight: 600;
+  text-decoration: none;
+  padding-bottom: 25px;
+  margin: 0 30px 0 30px;
+  -webkit-transition: color .6s ease-out;
+  -moz-transition: color .6s ease-out;
+  -o-transition: color .6s ease-out;
+  transition: color .6s ease-out;
+}
+
+.code-links a:hover {
+  color: #EBA39E;
+  cursor: pointer;
+}
+
+.tech-used {
+  font-family: 'Bungee', cursive;
+  font-size: 18px;
+  text-transform: uppercase;
   color: black;
-  padding-bottom: 3px;
+  list-style: none;
+  font-weight: 600;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  padding-bottom: 40px;
+
+}
+
+.tech-used li {
+  display: inline-block;
+
 }
 
 /**  MOBILE LAYOUT  (portrait and landscape) **/
@@ -109,14 +168,25 @@ i.fa.fa-chrome.fa-2x, i.fa.fa-github.fa-2x {
     }
 
     .grid-image img {
-        border: #92cbd4 2px solid;
         border-radius: 6px;
         padding: 4px;
+        filter: drop-shadow(1px 2px 22px #51321b);
+        padding-bottom: 34px;
+        max-width: 60em;
+        margin: auto;
+        display: block;
     }
 
     img {
         width: 100%;  /* This rule will make all images x percent as wide as their parents. */
     }
+
+    .portfolio-piece-info {
+      max-width: 60em;
+      margin: auto;
+      display: block;
+    }
+
 
     .clear-it {
         clear: both;
@@ -335,9 +405,6 @@ i.fa.fa-chrome.fa-2x, i.fa.fa-github.fa-2x {
 /**  DESKTOP LAYOUT **/
 @media only screen and (min-width : 1040px) {
 
-
-
-
     #home {
         margin-top: 50px; /* Adjusted for the fixed top nav. */
     }
@@ -395,12 +462,6 @@ i.fa.fa-chrome.fa-2x, i.fa.fa-github.fa-2x {
     #contactList .center-text a {
       text-decoration: none !important;
     }
-
-
-
-
-
-
 
     /**  DESKTOP-THEME  **/
     .icon {
