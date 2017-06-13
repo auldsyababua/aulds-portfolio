@@ -75,6 +75,10 @@ br {
     background-image: url(../img/hexellence.png);
 }
 
+.inner img {
+  margin-top: 25px
+}
+
 .profile-image {
   border-radius: 50%;
 }
@@ -134,13 +138,12 @@ br {
   box-sizing: border-box;
   display: block;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 74px;
 
 }
 
 .tech-used li {
   display: inline-block;
-
 }
 
 /**  MOBILE LAYOUT  (portrait and landscape) **/
@@ -278,7 +281,7 @@ br {
         font-family: 'Megrim', cursive;
         line-height: 150%;
         padding-top: 22px;
-        font-size: 44px;
+        font-size: 57px;
     }
 
     .down-arrow {
@@ -286,8 +289,11 @@ br {
     }
 
     .up-arrow {
-      width: 200px;
-      height: 40px;
+      width: 0;
+      height: 0;
+      border-left: 90px solid transparent;
+      border-right: 90px solid transparent;
+      border-bottom: 18px solid black;
       padding-top: 5px
     }
 
@@ -310,6 +316,10 @@ br {
         text-align: center;
         line-height: 150%;
         margin-bottom: 10px;
+    }
+
+    .contact-map img {
+      margin-bottom: 28px;
     }
 }
 
@@ -366,7 +376,7 @@ br {
 
     .circle-text {
       padding-top: 27px;
-      font-size: 45px;
+      font-size: 57px;
     }
 
 
@@ -379,6 +389,7 @@ br {
         margin-bottom: 25px;
         text-align: left;
     }
+
 
     .contact-map, .profile-text {
         margin-left: 3%;
@@ -401,9 +412,11 @@ br {
         -webkit-box-shadow: 0 2px 3px #efefef;
         box-shadow: 0 2px 3px #efefef;
     }
+
+    .portfolio-piece-info-wrapper {
+      font-size: 20px;
+    }
 }
-
-
 
 
 /**  DESKTOP LAYOUT **/
