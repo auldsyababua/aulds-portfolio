@@ -280,8 +280,8 @@ br {
         color: #333;
         font-family: 'Megrim', cursive;
         line-height: 150%;
-        padding-top: 22px;
-        font-size: 57px;
+        font-size: 4.7rem;
+
     }
 
     .down-arrow {
@@ -375,8 +375,8 @@ br {
     }
 
     .circle-text {
-      padding-top: 27px;
-      font-size: 57px;
+      
+      font-size: 4.7rem;
     }
 
 
